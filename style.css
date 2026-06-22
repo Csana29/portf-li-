@@ -94,3 +94,24 @@ header img {
     margin-bottom: 1.5rem;
     box-shadow: 0 4px 20px rgba(56, 189, 248, 0.15);
 }
+
+p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 1.5rem;
+}
+
+.kartyok {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.kartya {
+    background-color: #1e293b;
+    padding: 1.8rem;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    transition: transform 0.2s;
+}
+
