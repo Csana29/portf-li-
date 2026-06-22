@@ -115,3 +115,41 @@ p {
     transition: transform 0.2s;
 }
 
+.kartya:hover {
+    transform: translateY(-5px);
+}
+
+.kartya h3 {
+    color: #f1f5f9;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.cimke {
+    display: inline-block;
+    background-color: #0c4a6e;
+    color: #7dd3fc;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.gomb {
+    display: inline-block;
+    background-color: #0284c7;
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.gomb:hover {
+    background-color: #0369a1;
+}
